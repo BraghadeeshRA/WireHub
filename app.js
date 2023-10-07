@@ -12,7 +12,7 @@ app.use(passport.initialize());
 //cors gateway to client
 app.use(
     cors({
-      origin: ["http://localhost:3000"],
+      origin: ["https://odd-sock-dove.cyclic.app"],
       methods: ["GET", "POST", "PUT", "UPDATE", "DELETE"],
       credentials: true,
       allowedHeaders: ["Content-Type", "Authorization"],
